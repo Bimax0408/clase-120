@@ -1,0 +1,67 @@
+h1 {
+    font-family: 'Permanent Marker';
+}
+
+h2 {
+    font-family: 'Permanent Marker';
+}
+
+h4 {
+    font-family: 'Permanent Marker';
+
+}
+
+body {
+background-image: src("fondo.png");
+}
+
+#show {
+    color: black;
+    float: right;
+}
+
+canvas {
+    border:solid black;
+    border-radius: 10px;
+    margin-top: 100px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+}
+
+@keyframes example{
+    from {
+        box-shadow: 1px 1px 31px rgb(0, 204, 255);
+    }
+    to {
+        box-shadow: 1px 1px 31px rgb(60, 255, 0);
+    }
+
+}
+
+#hola {
+    background-color: yellow;
+    width: 700px;
+    border-radius: 25px;
+    border:solid black;
+    border-radius: 10px;
+}
+
+#show {
+    float:unset;
+}
+
+#botonborrar {
+        background-image:url(fondoborrar.png);
+        background-repeat: repeat-x;
+        height:100px;
+        width:500px;
+        background-position:center;
+        background-size: 200px;
+        font-size: 50px;
+        font-family: 'Permanent Marker';
+        color: rgb(255, 0, 0);
+}
